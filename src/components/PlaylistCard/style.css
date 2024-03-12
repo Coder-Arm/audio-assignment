@@ -3,11 +3,11 @@
     padding: 10px;
     box-shadow: 0 0 20px grey;
     display: flex;
-    gap: 20px;
     margin-bottom: 1.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: grey;
 }
 
 .playlist-card button{
