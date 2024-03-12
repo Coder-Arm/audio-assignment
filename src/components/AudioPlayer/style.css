@@ -1,0 +1,8 @@
+.audio-player{
+    margin-top: 1.5rem;
+}
+
+.audio-player input[type="range"]{
+    accent-color: orange;
+    width: 100%;
+}

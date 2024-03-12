@@ -1,0 +1,58 @@
+
+.current-player-container{
+    margin-top: 1.5rem;
+}
+.current-player-container p{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+.current-player {
+    display: flex;
+    gap: 5%;
+    margin-top: 1rem;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.current-player > div:first-of-type{
+    width: 10%;
+}
+.current-player > div:last-of-type{
+    width: 100%;
+}
+
+.music-logo{
+    width: 120px;
+    border-radius: 5px;   
+}
+
+
+@media (max-width : 1025px) {
+    .current-player{
+        gap: 10%;
+    }
+}
+
+@media (max-width : 825px) {
+    .current-player{
+        gap: 15%;
+    }
+}
+
+@media (max-width : 620px) {
+    .current-player{
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .current-player > div:first-of-type{
+        width: 100%;
+    }
+    .music-logo{
+        display: block;
+        margin : 0 auto
+    }
+}

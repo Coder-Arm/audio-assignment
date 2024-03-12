@@ -1,0 +1,21 @@
+.playlist-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 25px;
+    margin-top: 1.5rem;
+}
+
+@media (max-width : 875px) {
+    .playlist-container{
+        grid-template-columns: repeat(2,1fr); 
+        gap: 5px 20px;
+    }
+}
+
+@media (max-width : 675px) {
+    .playlist-container{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}

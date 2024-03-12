@@ -1,0 +1,19 @@
+.header{
+    padding: 15px 25px;
+    box-shadow: 0 0 5px grey;
+}
+.logo-box{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.header img{
+    width: 40px;
+}
+
+.logo-name{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
